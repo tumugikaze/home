@@ -1,0 +1,17 @@
+/*
+    You can add your own custom styles here.
+*/
+.links .article-image {
+    .link-image--dark {
+        display: none;
+    }
+}
+
+:root[data-scheme='dark'] .links .article-image {
+    .link-image--light {
+        display: none;
+    }
+    .link-image--dark {
+        display: block;
+    }
+}

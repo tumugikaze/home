@@ -1,0 +1,96 @@
+---
+title: Links
+links:
+  - title: GitHub
+    description: GitHub is the world's largest software development platform.
+    website: https://github.com/tumugikaze
+    image: https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png
+  - title: Twitter (X)
+    description: Twitter (X) is a social media platform.
+    website: https://x.com/HnR1n_2nd
+    image: x-logo-black.png
+    imageDark: x-logo-white.png
+menu:
+    main: 
+        weight: 5
+        params:
+            icon: link
+
+comments: false
+---
+## PGP Public Key
+`8F8 0C9D F93D 3F4A 6342  8056 BB28 B0BD 7589 E5FD`
+
+<details>
+<summary>Public Key (クリックして展開)</summary>
+
+```
+-----BEGIN PGP PUBLIC KEY BLOCK-----
+
+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
+vqYk08uuz5rR4MaBEdf5+WZpGR2CqYE=
+=9t8i
+-----END PGP PUBLIC KEY BLOCK-----
+```
+
+</details>
+<br>
+<a
+	href="pgp.asc"
+	download="pgp.asc"
+	class="text-gray-300 hover:text-white transition-colors underline"
+>
+	または、.ascを保存
+</a>
