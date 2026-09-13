@@ -105,7 +105,7 @@ jobs:
           role-to-assume: ${{ secrets.AWS_ROLE_ARN }}
           aws-region: ap-northeast-1
       - name: Sync to S3
-        run: aws s3 sync dist/ s3://${{ secrets.S3_BUCKET }} --delete
+        run: aws s3 sync public/ s3://${{ secrets.S3_BUCKET }} --delete
         
       - name: Delete cache
         run: |
