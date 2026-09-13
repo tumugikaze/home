@@ -15,3 +15,17 @@
         display: block;
     }
 }
+
+.highlight[filename] {
+    padding-top: 2.6em;
+}
+
+.highlight[filename]::before {
+    content: attr(filename);
+    position: absolute;
+    top: 0.3em;
+    left: 1em;
+    font-family: var(--font-monospace, monospace);
+    font-size: 0.8em;
+    color: var(--card-text-color-secondary);
+}

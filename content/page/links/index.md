@@ -92,5 +92,5 @@ vqYk08uuz5rR4MaBEdf5+WZpGR2CqYE=
 	download="pgp.asc"
 	class="text-gray-300 hover:text-white transition-colors underline"
 >
-	または、.ascを保存
+	または.ascを保存
 </a>

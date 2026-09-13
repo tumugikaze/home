@@ -11,6 +11,11 @@
         block  = [['\[', '\]'], ['$$', '$$']]
         inline = [['\(', '\)']]
 
+[goldmark.parser.attribute]
+    # Allow `{filename="hoge.txt"}` after a fenced code block's language
+    # so render-codeblock.html can show a filename header
+    block = true
+
 [tableOfContents]
     endLevel   = 4
     ordered    = true
